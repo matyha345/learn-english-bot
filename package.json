@@ -1,0 +1,22 @@
+{
+  "name": "learn-english-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js '🫶 🤖 Бот запущен 🤖🫶'"
+  },
+  "author": "matyha345",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/parse-mode": "^1.9.0",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.22.4",
+    "nodemon": "^3.1.0",
+    "random-js": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}
