@@ -10799,6 +10799,33 @@
                     "isCorrect": false
                 }
             ]
+        },
+        {
+            "id": 401,
+            "text": "This is a Latin!!! fragment. (хихих)",
+            "question": "Mi torno diablo esta",
+            "options": [
+                {
+                    "id": 2,
+                    "answer": "моя смена дьявола",
+                    "isCorrect": false
+                },
+                {
+                    "id": 1,
+                    "answer": "мой дьявол меняется",
+                    "isCorrect": true
+                },
+                {
+                    "id": 3,
+                    "answer": "Моя торговля дьяволом",
+                    "isCorrect": false
+                },
+                {
+                    "id": 4,
+                    "answer": "мой поворот дьявола",
+                    "isCorrect": false
+                }
+            ]
         }
     ]
 }
