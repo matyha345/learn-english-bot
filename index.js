@@ -16,10 +16,12 @@ const {
 
 const bot = new Bot(process.env.BOT_API_KEY)
 
+const nameButton = "Let's go study"
+
 // Обработка команды /start
 bot.command('start', async ctx => {
 	// Создание клавиатуры с выбором действия
-	const startKeyboard = new Keyboard().text('Start').resized()
+	const startKeyboard = new Keyboard().text(nameButton).resized()
 
 	// Отправка приветственного сообщения и клавиатуры
 	await ctx.reply(
@@ -33,8 +35,8 @@ bot.command('start', async ctx => {
 	)
 })
 
-bot.hears('Start', async ctx => {
-	const topic = ctx.message.text.toLocaleLowerCase()
+bot.hears(nameButton, async ctx => {
+	const topic = "start"
 
 	const question = getRandomTest(topic)
 
