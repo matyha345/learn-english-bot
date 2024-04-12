@@ -54,8 +54,6 @@ bot.hears(['All words', 'New words'], async ctx => {
 
 	let question
 
-	console.log('Topic:', topic)
-
 	if (topic === 'New words') {
 		question = getNextQuestion(topic)
 	} else {
