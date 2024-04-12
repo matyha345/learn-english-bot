@@ -41,7 +41,7 @@ bot.hears('Grammar', async ctx => {
     const question = getNextQuestion(topic);
 
     await ctx.replyWithPhoto(
-        question.img, // Прямая ссылка на изображение
+        question.img,
         {
             caption: `<b>${question.text}</b>`,
             parse_mode: 'HTML'

@@ -10857,178 +10857,308 @@
 			]
 		},
 		{
-            "id": 2,
-            "text": "Choose the correct translation",
-            "question": "comfortable",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "неудобные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "answer": "удобные",
-                    "isCorrect": true
-                },
-                {
-                    "id": 3,
-                    "answer": "комфортные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "answer": "неуютные",
-                    "isCorrect": false
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "text": "Choose the correct translation",
-            "question": "cheap",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "дорогие",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "answer": "дешевые",
-                    "isCorrect": true
-                },
-                {
-                    "id": 3,
-                    "answer": "экономичные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "answer": "доступные",
-                    "isCorrect": false
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "text": "Choose the correct translation",
-            "question": "exciting",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "скучные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "answer": "привлекательные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 3,
-                    "answer": "интересные",
-                    "isCorrect": true
-                },
-                {
-                    "id": 4,
-                    "answer": "захватывающие",
-                    "isCorrect": false
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "text": "Choose the correct translation",
-            "question": "popular",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "известные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "answer": "популярные",
-                    "isCorrect": true
-                },
-                {
-                    "id": 3,
-                    "answer": "признанные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "answer": "востребованные",
-                    "isCorrect": false
-                }
-            ]
-        },
-        {
-            "id": 6,
-            "text": "Choose the correct translation",
-            "question": "bad",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "плохие",
-                    "isCorrect": true
-                },
-                {
-                    "id": 2,
-                    "answer": "хорошие",
-                    "isCorrect": false
-                },
-                {
-                    "id": 3,
-                    "answer": "отличные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "answer": "неплохие",
-                    "isCorrect": false
-                }
-            ]
-        },
-        {
-            "id": 7,
-            "text": "Choose the correct translation",
-            "question": "modern",
-            "options": [
-                {
-                    "id": 1,
-                    "answer": "старые",
-                    "isCorrect": false
-                },
-                {
-                    "id": 2,
-                    "answer": "новые",
-                    "isCorrect": true
-                },
-                {
-                    "id": 3,
-                    "answer": "прогрессивные",
-                    "isCorrect": false
-                },
-                {
-                    "id": 4,
-                    "answer": "классические",
-                    "isCorrect": false
-                }
-            ]
-        }
+			"id": 2,
+			"text": "Choose the correct translation",
+			"question": "comfortable",
+			"options": [
+				{
+					"id": 1,
+					"answer": "неудобные",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "удобные",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "комфортные",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "неуютные",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 3,
+			"text": "Choose the correct translation",
+			"question": "cheap",
+			"options": [
+				{
+					"id": 1,
+					"answer": "дорогие",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "дешевые",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "экономичные",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "доступные",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 4,
+			"text": "Choose the correct translation",
+			"question": "exciting",
+			"options": [
+				{
+					"id": 1,
+					"answer": "скучные",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "привлекательные",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "интересные",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "захватывающие",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 5,
+			"text": "Choose the correct translation",
+			"question": "popular",
+			"options": [
+				{
+					"id": 1,
+					"answer": "известные",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "популярные",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "признанные",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "востребованные",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 6,
+			"text": "Choose the correct translation",
+			"question": "bad",
+			"options": [
+				{
+					"id": 1,
+					"answer": "плохие",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "хорошие",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "отличные",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "неплохие",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 7,
+			"text": "Choose the correct translation",
+			"question": "modern",
+			"options": [
+				{
+					"id": 1,
+					"answer": "старые",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "новые",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "прогрессивные",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "классические",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 8,
+			"text": "Choose the correct comparison",
+			"question": "good 👉🏼 better",
+			"options": [
+				{
+					"id": 1,
+					"answer": "меньше",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "хуже",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "дальше",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "лучше",
+					"isCorrect": true
+				}
+			]
+		},
+		{
+			"id": 9,
+			"text": "Choose the correct comparison",
+			"question": "bad 👉🏼 worse",
+			"options": [
+				{
+					"id": 1,
+					"answer": "лучше",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "хуже",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "дальше",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "меньше",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 10,
+			"text": "Choose the correct comparison",
+			"question": "far 👉🏼 further",
+			"options": [
+				{
+					"id": 1,
+					"answer": "лучше",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "хуже",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "дальше",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "меньше",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 11,
+			"text": "Choose the correct comparison",
+			"question": "little 👉🏼 less",
+			"options": [
+				{
+					"id": 1,
+					"answer": "меньше",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "больше",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "дальше",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "лучше",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 12,
+			"text": "Choose the correct comparison",
+			"question": "many 👉🏼 more",
+			"options": [
+				{
+					"id": 1,
+					"answer": "меньше",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "больше",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "дальше",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "лучше",
+					"isCorrect": false
+				}
+			]
+		}
 	],
-    "grammar": [
-        {
-            "id":1,
-            "text": "Comparative form example",
-            "img": "./images/comparative-form.jpg"
-        },
-        {
-            "id":2,
-            "text": "Comparative form example ddd",
-            "img": "./images/comparative-form.jpg"
-        }
-    ]
+	"grammar": [
+		{
+			"id": 1,
+			"text": "Сравнительные прилагательные (Comparative Adjectives) - это формы прилагательных, которые используются для сравнения двух или более вещей, людей или явлений. Например, 'больше', 'меньше', 'более интересный' и 'менее занятый' - это примеры сравнительных прилагательных. Они помогают указать различия в свойствах или характеристиках между двумя сущностями.",
+			"img": "https://github.com/matyha345/learn-english-bot/blob/new-functionality/src/components/data/images/comparative-form.jpg?raw=true"
+		}
+	]
 }

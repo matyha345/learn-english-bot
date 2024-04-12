@@ -2,6 +2,22 @@ const questions = require('../data/word_groups_shuffled.json')
 
 const { Random } = require('random-js')
 
+let questionIndex = 0
+
+const getNextQuestionIndex = topic => {
+	if (!questions[topic] || questions[topic].length === 0) {
+		return -1
+	}
+
+	questionIndex = (questionIndex + 1) % questions[topic].length
+	return questionIndex
+}
+
+const getNextQuestion = topic => {
+	const nextIndex = getNextQuestionIndex(topic)
+	return questions[topic][nextIndex]
+}
+
 const getRandomTest = topic => {
 	const random = new Random()
 
@@ -25,22 +41,6 @@ const getCorrectAnswer = (topic, id) => {
 	}
 	const question = topicQuestions.find(question => question.id === id)
 	return question.options.find(option => option.isCorrect).answer
-}
-
-let questionIndex = 0
-
-const getNextQuestionIndex = topic => {
-	if (!questions[topic] || questions[topic].length === 0) {
-		return -1
-	}
-
-	questionIndex = (questionIndex + 1) % questions[topic].length
-	return questionIndex
-}
-
-const getNextQuestion = topic => {
-	const nextIndex = getNextQuestionIndex(topic)
-	return questions[topic][nextIndex]
 }
 
 module.exports = { getRandomTest, getCorrectAnswer, getNextQuestion }
