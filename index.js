@@ -28,7 +28,7 @@ bot.command('start', async ctx => {
 		'Привет! Я Бот, Бот для изучения английского🤖 \nЯ помогу тебе расширить свой словарный запас через тесты🥷'
 	)
 	await ctx.reply(
-		'Начнем учиться... на данный момент у меня есть 400 слов для повторения.\nНажмите на кнопку👇',
+		'Начнем учиться... на данный момент у меня есть 414 слов для повторения.\nНажмите на кнопку👇',
 		{
 			reply_markup: startKeyboard
 		}
@@ -53,8 +53,6 @@ bot.hears(['All words', 'New words'], async ctx => {
 	const topic = ctx.message.text.toLowerCase().replace(/\s/g, '')
 
 	let question
-
-	console.log('Topic:', topic)
 
 	if (topic === 'New words') {
 		question = getNextQuestion(topic)
@@ -86,6 +84,10 @@ bot.hears(['All words', 'New words'], async ctx => {
 		parse_mode: 'HTML'
 	})
 })
+
+bot.on('message:text', async (ctx) => {
+    await ctx.reply("Команда неизвестна. Пожалуйста, перезапустите бота с помощью команды /start.");
+});
 
 bot.on('callback_query:data', async ctx => {
 	const callbackData = JSON.parse(ctx.callbackQuery.data)
