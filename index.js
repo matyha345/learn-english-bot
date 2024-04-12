@@ -8,37 +8,59 @@ const {
 	HttpError
 } = require('grammy')
 
-// Импорт функций для работы с вопросами и ответами
 const {
 	getRandomTest,
-	getCorrectAnswer
+	getCorrectAnswer,
+	getNextQuestion
 } = require('./src/components/utils/utils')
 
 const bot = new Bot(process.env.BOT_API_KEY)
 
-const nameButton = "Let's go study"
-
-// Обработка команды /start
 bot.command('start', async ctx => {
-	// Создание клавиатуры с выбором действия
-	const startKeyboard = new Keyboard().text(nameButton).resized()
+	const startKeyboard = new Keyboard()
+		.text('All words')
+		.text('New words')
+		.row()
+		.text('Grammar')
+		.resized()
 
-	// Отправка приветственного сообщения и клавиатуры
 	await ctx.reply(
-		"Привет! Я Бот, Бот для изучения английского🤖 \nЯ помогу тебе расширить свой словарный запас через тесты🥷"
+		'Привет! Я Бот, Бот для изучения английского🤖 \nЯ помогу тебе расширить свой словарный запас через тесты🥷'
 	)
 	await ctx.reply(
-		"Начнем учиться... на данный момент у меня есть 400 слов для повторения.\nНажмите на кнопку👇",
+		'Начнем учиться... на данный момент у меня есть 400 слов для повторения.\nНажмите на кнопку👇',
 		{
 			reply_markup: startKeyboard
 		}
 	)
 })
 
-bot.hears(nameButton, async ctx => {
-	const topic = "start"
+bot.hears('Grammar', async ctx => {
+    const topic = ctx.message.text.toLowerCase();
 
-	const question = getRandomTest(topic)
+    const question = getNextQuestion(topic);
+
+    await ctx.replyWithPhoto(
+        question.img, // Прямая ссылка на изображение
+        {
+            caption: `<b>${question.text}</b>`,
+            parse_mode: 'HTML'
+        }
+    );
+});
+
+bot.hears(['All words', 'New words'], async ctx => {
+	const topic = ctx.message.text.toLowerCase().replace(/\s/g, '')
+
+	let question
+
+	console.log('Topic:', topic)
+
+	if (topic === 'New words') {
+		question = getNextQuestion(topic)
+	} else {
+		question = getRandomTest(topic)
+	}
 
 	const fullQuestion = `🥷\nHow is it translated: <b><u>❗${question.question.toUpperCase()}❗</u></b> <b>${question.text.toLocaleLowerCase()}</b> 👀`
 
