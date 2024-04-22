@@ -11152,13 +11152,369 @@
 					"isCorrect": false
 				}
 			]
-		}
+		},
+		{
+			"id": 13,
+			"text": "Choose the correct comparison",
+			"question": "Could I have the bill",
+			"options": [
+				{
+					"id": 1,
+					"answer": "могу я взять счет",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "могу я попросить счёт",
+					"isCorrect": true
+				},
+				{
+					"id": 3,
+					"answer": "можно мне получить чек",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "я хочу заказать счет",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 14,
+			"text": "Choose the correct comparison",
+			"question": "Go ahead",
+			"options": [
+				{
+					"id": 1,
+					"answer": "продолжай",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "иди вперёд",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "пошли, покажи",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "двигай дальше",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 15,
+			"text": "Choose the correct comparison",
+			"question": "The same for me",
+			"options": [
+				{
+					"id": 1,
+					"answer": "одинаково для меня",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "тоже самое для меня",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "то же самое для меня",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "этот же для меня",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 16,
+			"text": "Choose the correct comparison",
+			"question": "Decaf",
+			"options": [
+				{
+					"id": 1,
+					"answer": "без кофейни",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "без капучино",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "без кофеина",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "без сахара",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 17,
+			"text": "Choose the correct comparison",
+			"question": "Nothing special",
+			"options": [
+				{
+					"id": 1,
+					"answer": "без кофейни",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "без капучино",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "без кофеина",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "ничего особенного",
+					"isCorrect": true
+				}
+			]
+		},
+		{
+			"id": 18,
+			"text": "Choose the correct comparison",
+			"question": "I got two goals this afternoon.",
+			"options": [
+				{
+					"id": 1,
+					"answer": "cегодня днем я забил два гола",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "я получил два цели в этот вечер",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "я достиг двух целей этим утром",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "я добился двух целей вчера вечером",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 19,
+			"text": "Choose the correct comparison",
+			"question": "Never mind",
+			"options": [
+				{
+					"id": 1,
+					"answer": "Не обращайте внимания",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "Не беспокойтесь",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "Не берите в голову",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "Не заботьтесь",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 20,
+			"text": "Choose the correct comparison",
+			"question": "сongratulations",
+			"options": [
+				{
+					"id": 1,
+					"answer": "Рад за вас",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "Вау, вы молодец",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "Отличная новость",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "Поздравления",
+					"isCorrect": true
+				}
+			]
+		},
+		{
+			"id": 21,
+			"text": "Choose the correct comparison",
+			"question": "count",
+			"options": [
+				{
+					"id": 1,
+					"answer": "считать",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "подсчитать",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "считаться",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "причислять",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 22,
+			"text": "Choose the correct translation",
+			"question": "tasty",
+			"options": [
+				{
+					"id": 1,
+					"answer": "вкусно",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "сытно",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "сладко",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "остро",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 23,
+			"text": "Choose the correct translation",
+			"question": "Starters",
+			"options": [
+				{
+					"id": 1,
+					"answer": "запускатели",
+					"isCorrect": false
+				},
+				{
+					"id": 2,
+					"answer": "начальники",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "закуски",
+					"isCorrect": true
+				},
+				{
+					"id": 4,
+					"answer": "стартеры",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 24,
+			"text": "Choose the correct translation 'Restaurant context'",
+			"question": "Main courses",
+			"options": [
+				{
+					"id": 1,
+					"answer": "Основные блюда",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "Главные курсы",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "Прияные закуски",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "Главные блюда",
+					"isCorrect": false
+				}
+			]
+		},
+		{
+			"id": 25,
+			"text": "Выберите правильный перевод",
+			"question": "Desserts",
+			"options": [
+				{
+					"id": 1,
+					"answer": "Десерты",
+					"isCorrect": true
+				},
+				{
+					"id": 2,
+					"answer": "Выпечка",
+					"isCorrect": false
+				},
+				{
+					"id": 3,
+					"answer": "Сладости",
+					"isCorrect": false
+				},
+				{
+					"id": 4,
+					"answer": "Послеужинное",
+					"isCorrect": false
+				}
+			]
+		}									
 	],
 	"grammar": [
 		{
 			"id": 1,
 			"text": "Сравнительные прилагательные (Comparative Adjectives) - это формы прилагательных, которые используются для сравнения двух или более вещей, людей или явлений. Например, 'больше', 'меньше', 'более интересный' и 'менее занятый' - это примеры сравнительных прилагательных. Они помогают указать различия в свойствах или характеристиках между двумя сущностями.",
 			"img": "https://github.com/matyha345/learn-english-bot/blob/new-functionality/src/components/data/images/comparative-form.jpg?raw=true"
+		},
+		{
+			"id": 2,
+			"text": "Сравнительные прилагательные (Comparative Adjectives) - это формы прилагательных, которые используются для сравнения двух или более вещей, людей или явлений. Например, 'больше', 'меньше', 'более интересный' и 'менее занятый' - это примеры сравнительных прилагательных. Они помогают указать различия в свойствах или характеристиках между двумя сущностями.",
+			"img": "https://github.com/matyha345/learn-english-bot/blob/new-functionality/src/components/data/images/Responding-to-what-somebody-says.jpg?raw=true"
 		}
 	]
 }
